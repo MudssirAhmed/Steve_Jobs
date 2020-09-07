@@ -1,0 +1,109 @@
+body{
+    padding: 0px 200px;
+}
+header{
+    text-align: center;
+    font-family:'Pacifico', cursive;
+    
+}
+header img{
+    width: 900px;
+}
+h1{
+    display: inline-block;
+    width: 725px ;
+    text-align: center;
+    color: lightgray;
+}
+
+.Timeline_Lines{
+    display: inline;
+}
+.Timelines_Lines_Dates{
+
+    /* text-align: center;
+    display: inline-block;
+    border-top:2px solid gray;
+    
+    font-weight: bold;
+    font-size: 14px;
+    width: 100px;
+    height: 50px;
+    padding: 10px 0px; */
+    width: 100px;
+    height:7px;
+    text-align: center;
+    line-height: 26px;
+    float: left;
+    font-size: 14px;
+    border-top: 2px solid #ccc;
+    margin: -1px 0 0 0;
+    padding: 4px 5px 6px 0;
+    clear: left;
+    font-weight: bold;
+    font-family: 'Dosis';
+    
+}
+.Time_Lines_Decp{
+    /* display: inline-block;
+    background-color: hsl(0, 0%, 96%);
+    border-bottom: 2px solid hsl(0, 0%, 90%);
+    width: 625px;
+    height: 30px;
+    font-size: 14px;
+       
+    padding: 10px 10px;  */
+    width: 625px;
+    background: #f9f9f9;
+    float: left;
+    margin: 0;
+    padding: 8px 12px 8px 8px;
+    border-top: 1px solid #ccc;
+    clear: right;
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+#sidebar_Container{
+    text-align: center;
+}
+table{
+    font-size: 17px;
+    margin-left: 800px;
+}
+#nutshell{
+    font-family: 'Lato' , sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+}
+
+tr .sidebar_img{
+    width: 250px;
+    margin-top: 8px;
+    
+}
+tr td{
+    border-bottom: 2px solid hsl(0, 0%, 90%);
+    
+    font-family: 'Roboto';
+}
+tr th{
+    font-family: 'Lato' , sans-serif;
+}
+
+
+footer{
+    background-color: hsl(0, 0%, 90%);
+    margin-top: 70px;
+}
+footer p{
+    font-family: 'pacifico';
+    text-align: center;
+    font-size: 30px;
+}
+footer span{
+    display: block;
+}
+footer a{
+    color: blue;
+}
